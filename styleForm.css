@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    width: 100vw;
+    background-color: rgb(215, 215, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Contenedor del formulario */
+.form-container {
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px 0 20px 0;
+}
+
+h1 {
+    font-size: 28px; /* Aumentado tamaño de fuente */
+    color: whitesmoke;
+    text-align: center;
+}
+
+#h1Form {
+    background-color: #1A73E8;
+    color: whitesmoke;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 15px 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 55px; /* Añadido margen inferior de 15px */
+    h5{
+        font-weight: 400;
+        color: #D7D7D7;
+        margin-top: 3px;
+    }
+    
+}
+
+
+
+h2 {
+    font-size: 14px; /* Aumentado tamaño de fuente */
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px; /* Mayor separación inferior */
+}
+
+
+
+/* Estilo de los inputs, selects y botones */
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilo de los labels */
+label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    display: block;
+}
+
+/* Estilo para los títulos dentro de los huéspedes */
+.huesped h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Eliminar títulos solo para los campos de nombre, edad y DNI */
+input::placeholder {
+    color: #888;
+    font-style: italic;
+}
+
+/* Estilo de botones */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 40px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.important-message, .alert-message {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-left: 4px solid #ffc107;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.important-message p, .alert-message p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+#msjPago{
+    border-left: 4px solid #007BFF;
+
+}
+
+.download-btn {
+    background-color: #FFD700; /* Amarillo */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #333333;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    display: flex;
+    margin-top: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.download-btn:hover {
+    background-color: #FFBF00; /* Amarillo más oscuro al pasar el mouse */
+}
+
+/* Estilo para todos los huéspedes */
+.huesped {
+border: solid aliceblue;    
+padding: 20px 20px 0px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+p{
+    text-align: justify;
+}
+
+.form-section {
+    display: none;
+}
+
+.form-section.active {
+    display: block;
+}
+
+#pay-btn{
+    background-color: #007BFF;
+    color: aliceblue;
+}
+
+
+
+
+
+/* SELECTOR DE NOCHES */
+.nights-select {
+    margin: 0 0 20px 0;
+}
+
+.nights-select h3{
+    margin-top: 10px;
+}
+
+.nights-select label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.nights-select select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+
+/* BOTON ADJUNTAR COMPROBANTE EN SECCION PAGOS */
+/* Contenedor de carga de archivos */
+.file-upload-wrapper {
+    position: relative;
+    width: 93%;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Estilo del botón de carga */
+.file-upload-btn {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    color: aliceblue;
+    background-color: #1A73E8;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.file-upload-btn:hover {
+    background-color: #45a049;
+}
+
+/* Ocultar el input file */
+input.comprobante {
+    position: absolute;
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+/* Mensaje de archivo no seleccionado */
+.file-upload-message {
+    display: block;
+    font-size: 14px;
+    color: #888;
+    margin-top: 5px;
+}
+
+
+
+#continue-btn{
+    background-color: #1A73E8;
+    color: aliceblue;
+    height: 40px;
+}
+
+.divVacio{
+    margin: 100px 0 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+#section-4 {
+    display: none;
+    text-align: center;
+    text-align: left;
+}
+
+#section-4 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#section-4 ul li {
+    margin: 10px 0;
+}
+
+#finalizar-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    height: 40px;
+}
+
+#finalizar-btn:hover {
+    background-color: #0056b3;
+}
+
+
+.senaYsaldo{
+    color: #888;
+}
+.textoFino{
+    font-weight: 400;
+}
+.p5px{
+    margin-bottom: 5px;
+}
+#checkout{
+    background-color: #f9f9f9;
+    padding: 25px;
+    border-left: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.totalCheckout{
+    margin-bottom: 5px;
+    font-size: 120%;
+}

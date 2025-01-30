@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleForm.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="form-container">
+        <!-- Sección 1: Datos de la Reserva -->
+        <div class="form-section" id="section-1">
+            <div id="h1Form">
+                <h1>Datos de la Reserva</h1>
+                <h5>PASO <strong>1</strong> de 3</h5>
+            </div>
+            <br>
+            <br>
+            <br>
+            <input type="text" id="nombre-reserva" name="nombre-reserva"
+                placeholder="¿A nombre de quién está la reserva?">
+            <div class="fecha-container">
+                <label for="fecha-entrada">Fecha de ingreso</label>
+                <input type="date" id="fecha-entrada" name="fecha-entrada">
+            </div>
+            <div class="fecha-container">
+                <label for="fecha-salida">Fecha de salida</label>
+                <input type="date" id="fecha-salida" name="fecha-salida">
+            </div>
+            <div class="cabaña-container">
+                <label for="cabana">¿En qué cabaña vas a alojarte?</label>
+                <select id="cabana" name="cabana">
+                    <option value="masia-luna">Masía de la Luna (5/7 personas)</option>
+                    <option value="masia-cielo">Masía del Cielo (2/4 personas)</option>
+                </select>
+            </div>
+            
+            <!-- Nuevo select para "Ropa de blanco" -->
+            <div class="ropa-select">
+                <label for="ropa">¿Ropa de blanco para cuántas personas?</label>
+                <select id="ropa" name="ropa">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                </select>
+            </div>
+            <!-- Selector noches -->
+            <div class="nights-select">
+                <label for="nights">¿Cuántas noches vas a alojarte?</label>
+                <select id="nights" name="nights">
+                    <!-- Opciones generadas automáticamente de 1 a 15 -->
+                </select>
+            </div>
+            <button type="button" class="continue-btn" data-next="2" id="continue-btn">Continuar</button>
+        </div>
+
+
+        <!-- Sección 2: Datos de los Huéspedes -->
+         
+        <div class="form-section" id="section-2">
+            <div id="h1Form">
+                <h1>Datos de los Huéspedes</h1>
+                <h5>PASO <strong>2</strong> de 3</h5>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <!-- Datos de los huéspedes -->
+            <div id="huespedes">
+                <!-- Huesped 1 -->
+                <div class="huesped">
+                    <label for="nombre-huesped1">Nombre y apellido</label>
+                    <input type="text" id="nombre-huesped1" name="huesped-nombre1" placeholder="Nombre y apellido">
+
+                    <label for="dni-huesped1">DNI</label>
+                    <input type="text" id="dni-huesped1" name="huesped-dni1" placeholder="DNI">
+
+                    <label for="edad-huesped1">Edad</label>
+                    <input type="number" id="edad-huesped1" name="huesped-edad1" placeholder="Edad">
+
+                    <label for="socio-huesped1">¿Es socio del Club de Pescadores?</label>
+                    <select id="socio-huesped1" name="socio-huesped1">
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                    <div class="file-upload-wrapper">
+
+                        <label for="foto-dni-huesped1" class="file-upload-btn">Adjuntá foto o PDF del DNI</label>
+                        <input type="file" id="foto-dni-huesped1" name="huesped-foto-dni1">
+                        <span class="file-upload-message">Sin archivos seleccionados</span>
+                    </div>
+
+
+
+                </div>
+
+                <!-- Huesped 2 -->
+                <div class="huesped">
+                    <label for="nombre-huesped2">Nombre y apellido</label>
+                    <input type="text" id="nombre-huesped2" name="huesped-nombre2" placeholder="Nombre y apellido">
+
+                    <label for="dni-huesped2">DNI</label>
+                    <input type="text" id="dni-huesped2" name="huesped-dni2" placeholder="DNI">
+
+                    <label for="edad-huesped2">Edad</label>
+                    <input type="number" id="edad-huesped2" name="huesped-edad2" placeholder="Edad">
+
+                    <label for="socio-huesped2">¿Es socio del Club de Pescadores?</label>
+                    <select id="socio-huesped2" name="socio-huesped2">
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+
+                    <label for="foto-dni-huesped2">Adjuntá foto o PDF del DNI</label>
+                    <input type="file" id="foto-dni-huesped2" name="huesped-foto-dni2">
+                </div>
+            </div>
+            <div class="important-message">
+                <p><i class="fa fa-info-circle"></i>
+                    Recordá que los <strong>NO socios</strong> pagan entrada <span
+                        style="text-decoration: underline;">por
+                        única vez</span> (por persona) y estadía <span style="text-decoration: underline;">por cada
+                        noche</span> que se alojen (por persona). Si sos
+                    jubilado, el costo de la entrada y de la estadía tiene un 50% de descuento.</p>
+                <p> <strong>Estos valores los cobra el Club de Pescadores y se pagan en la entrada del mismo al
+                        llegar.</strong></p>
+            </div>
+
+            <div class="important-message">
+                <p> <i class="fa fa-phone"></i>
+                    Para consultar los precios de entrada y estadía, comunicate con el Club de Pescadores:
+                    <strong>2604-681665</strong>.
+                </p>
+            </div>
+
+            <button type="button" class="continue-btn" id="continue-btn" data-next="3">Continuar al pago</button>
+        </div>
+
+
+
+        <!-- Sección 3: Pago -->
+        <div class="form-section" id="section-3">
+            <div id="h1Form">
+                <h1>Pago</h1>
+                <h5>PASO <strong>3</strong> de 3</h5>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="important-message" id="msjPago">
+                <p>Podés pagar el total o solo la seña según tu preferencia. Recordá que la reserva se confirma al
+                    abonar la seña del 50%.</p>
+            </div>
+
+            <div class="important-message totalApagar" id="checkout">
+                <div class="totalYsena">
+                    <h4 class="totalCheckout">TOTAL:&nbsp; <span id="total-pago"></span></h4>
+                    <hr>
+                    <h4 class="senaYsaldo textoFino">Seña 50%:&nbsp; <strong><span id="sena-50"></span></strong></h4>
+                    <hr>
+                    <h4 class="senaYsaldo textoFino">Saldo 50%:&nbsp; <strong><span>se paga al ingresar</span></strong>
+                    </h4>
+
+                </div>
+            </div>
+
+            <div class="payment-info">
+                <p class="p5px">Pagá la <strong>seña</strong> o <strong>el total</strong> por transferencia:</p>
+                <div class="important-message" id="msjPago">
+                    <p class="senaYsaldo">ALIAS: <strong class="senaYsaldo">&nbsp;VERSO.CORTE.TRANVIA</strong></p>
+                    <p class="senaYsaldo">CBU: <strong class="senaYsaldo">&nbsp;0110485530048513081979</strong></p>
+                </div>
+            </div>
+            <!-- <p>O pagá <strong>el total</strong> en 2 cuotas sin interés:</p>
+            <button type="button" class="pay-btn" id="pay-btn">Pagar con tarjeta</button> -->
+            <!-- <label for="comprobante">Adjuntar comprobante de pago:</label> -->
+            <div class="file-upload-wrapper">
+                <label for="comprobante" class="file-upload-btn">Adjuntar comprobante</label>
+                <input type="file" id="comprobante" class="comprobante">
+                <span class="file-upload-message">Sin archivos seleccionados</span>
+            </div>
+
+            <button type="button" class="submit-btn">RESERVAR AHORA</button>
+        </div>
+
+
+        <!-- Sección 4: Reserva Confirmada -->
+        <div class="form-section" id="section-4" style="display: none;">
+            <h1 id="h1Form">¡Reserva confirmada!</h1>
+            <br>
+            <br>
+            <br>
+            <div class="important-message" id="msjPago">
+                <p>Resumen de tu reserva:</p>
+                <ul>
+                    <li>A nombre de: <strong class="senaYsaldo"><span id="resumen-nombre"></span></strong> </li>
+                    <li>Fecha de ingreso: <strong class="senaYsaldo"><span id="resumen-fecha-entrada"></span></strong>
+                    </li>
+                    <li>Fecha de salida: <strong class="senaYsaldo"><span id="resumen-fecha-salida"></span></strong>
+                    </li>
+                    <li>Cabaña: <strong class="senaYsaldo"><span id="resumen-cabana"></span></strong></li>
+                    <li>Noches: <strong class="senaYsaldo"><span id="resumen-noches"></span></strong></li>
+                    <li>Ropa de blanco: <strong class="senaYsaldo"><span id="resumen-ropa"></span></strong></li> <!-- Nuevo dato -->
+
+                </ul>
+            </div>
+
+            <div class="important-message" id="msjPago">
+                <p> <i class="fas fa-key"></i>
+                    Para ingresar, encontrarás la llave de la cabaña en la parrilla de la misma, debajo de la
+                    piedra. Al salir, recuerda dejarla en el mismo lugar.
+                </p>
+            </div>
+            <div class="alert-message">
+                <p> <i class="fa fa-exclamation-triangle"></i> Antes del ingreso, te recomendamos leer el reglamento del
+                    Club de Pescadores.</p>
+                <a href="Reglamento-ClubDePescadores.pdf" class="download-btn" download>Descargar Reglamento</a>
+            </div>
+            <button type="button" id="finalizar-btn">FINALIZAR</button>
+        </div>
+
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,2 @@
+<!-- <div class="barra"><i class="fa fa-exclamation-triangle"></i>
+                ¿Sos nuevo? Leé el reglamento <a class="aqui" href="reglamento.html"> AQUÍ</a></div> -->

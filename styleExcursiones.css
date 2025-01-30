@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.excursiones{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+}
+
+.excursion {
+    position: relative; /* Para que el contenido esté en relación con este contenedor */
+    width: 100%;
+    height: 25%; /* Ajusta el tamaño según sea necesario */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: aliceblue;
+    overflow: hidden; /* Para que el video no se desborde */
+    border-bottom: 3px solid aliceblue;    
+}
+
+.excursion h2,
+.excursion button {
+    position: relative; /* Permite que el contenido quede sobre el video */
+    z-index: 1; /* Asegura que el texto y los botones estén delante del video */
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* El video estará detrás */
+}
+
+.video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta el video al tamaño del contenedor */
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(175, 175, 175, 0.2);
+    z-index: 1;
+}
+
+.tituloYboton{
+    width: 50%;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 3;
+}
+
+#elementoDerecha{
+    width: 50%;
+    padding-right: 40px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+/* h2{
+    margin-bottom: 10px;
+} */
+
+a{
+    background-color: #1A73E8;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: aliceblue;
+}
+
+#velero, #pesca{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    video{
+        transform: scaleX(-1);
+    }
+    h2{
+        margin-bottom: 0;
+    }
+
+}
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%; /* Ocupa el 50% del ancho del contenedor */
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+    z-index: 2; /* Coloca la capa debajo del título */
+}
+
+.overlay3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% + 10px); /* Ajusta ligeramente el ancho */
+    height: 100%;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    z-index: 2;
+}
+
+
