@@ -598,6 +598,8 @@ hr {
     width: 100vw;
     display: flex;
     height: 80vh;
+    justify-content: center;
+    align-items: center;
 
     h2 {
         font-size: 200%;
@@ -616,6 +618,11 @@ hr {
     background-color: transparent;
     color: aliceblue;
     gap: 15px;
+    z-index: 15;
+    position: absolute;
+    text-shadow: 0 8px 8px rgb(0, 0, 0);
+
+    
 }
 
 .cursiva {
@@ -628,6 +635,8 @@ hr {
     background-color: #007BFF;
     color: aliceblue;
     border: solid 2px #007BFF;
+    text-shadow: none;
+
 }
 
 .video-background-final {
@@ -648,14 +657,21 @@ hr {
     display: block;
 }
 
+
 .overlayFinal {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background: rgba(0, 0, 0, 0.7);
     z-index: -1;
+}
+
+
+.custom-carousel{
+    z-index: 14;
+    position: absolute;
 }
 
 footer {
@@ -670,6 +686,7 @@ footer {
     border-top-right-radius: 20px;
     color: #888;
     margin-top: -25px;
+    z-index: 20;
 
     p {
         font-size: 10px;
@@ -855,3 +872,15 @@ footer {
     flex-shrink: 0;
     /* Evita que las imágenes se colapsen */
 }
+
+
+
+
+
+
+
+
+
+
+
+

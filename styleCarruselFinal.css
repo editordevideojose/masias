@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custom-carousel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.custom-carousel img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+.custom-carousel img.custom-active {
+    opacity: 1;
+}
+
