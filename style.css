@@ -581,84 +581,7 @@ hr {
 
 
 
-/*COPY FINAL  ///////////////////////////////////// */
-.containerFinal {
-    width: 100vw;
-    display: flex;
-    height: 80vh;
-    justify-content: center;
-    align-items: center;
 
-    h2 {
-        font-size: 200%;
-    }
-
-}
-
-.final {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 30px 20px 50px 20px;
-    background-color: transparent;
-    color: aliceblue;
-    gap: 15px;
-    z-index: 15;
-    position: absolute;
-    /* text-shadow: 0 8px 8px rgb(0, 0, 0); */
-
-    
-}
-
-.cursiva {
-    font-style: italic;
-}
-
-#btnDispoFinal {
-    margin: 10px 0;
-    width: 60%;
-    background-color: #007BFF;
-    color: aliceblue;
-    border: solid 2px #007BFF;
-    text-shadow: none;
-
-}
-
-.video-background-final {
-    position: relative;
-    height: 90vh;
-    overflow: hidden;
-}
-
-.video-background-final video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-    filter: blur(1px);
-    display: block;
-}
-
-.overlay2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.6); /* Ajusta la opacidad según lo necesites */
-    z-index: 14; /* Debe estar entre el carrusel (z-index: 14) y el texto (z-index: 15) */
-}
-
-.custom-carousel{
-    z-index: 14;
-    position: absolute;
-}
 
 
 
@@ -817,7 +740,84 @@ hr {
 
 
 
+/*COPY FINAL  ///////////////////////////////////// */
+.containerFinal {
+    width: 100vw;
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
 
+    h2 {
+        font-size: 200%;
+    }
+
+}
+
+.final {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 20px 50px 20px;
+    background-color: transparent;
+    color: aliceblue;
+    gap: 15px;
+    z-index: 15;
+    position: absolute;
+    /* text-shadow: 0 8px 8px rgb(0, 0, 0); */
+
+    
+}
+
+.cursiva {
+    font-style: italic;
+}
+
+#btnDispoFinal {
+    margin: 10px 0;
+    width: 60%;
+    background-color: #007BFF;
+    color: aliceblue;
+    border: solid 2px #007BFF;
+    text-shadow: none;
+
+}
+
+.video-background-final {
+    position: relative;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.video-background-final video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: blur(1px);
+    display: block;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Ajusta la opacidad según lo necesites */
+    z-index: 14; /* Debe estar entre el carrusel (z-index: 14) y el texto (z-index: 15) */
+}
+
+.custom-carousel{
+    z-index: 14;
+    position: absolute;
+}
 
 
 
