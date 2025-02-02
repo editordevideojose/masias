@@ -164,6 +164,8 @@ body {
     text-align: center;
     margin: -40px 0 80px 0;
     font-size: 150%;
+    /* text-shadow: 0 4px 8px rgba(0, 0, 0, 0.688); */
+
 
     h5 {
         font-weight: 200;
@@ -177,6 +179,7 @@ body {
 
     h1 {
         font-weight: bolder;
+        
     }
 
 }
@@ -371,12 +374,7 @@ body {
 
 
 
-
-
-
-
-
-
+/*CARRUSEL CLUB  ///////////////////////////////////// */
 .carouselClub {
     width: 100%;
     height: 200px;
@@ -401,15 +399,7 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
+/*SECCION SERVICIOS CLUB  ///////////////////////////////////// */
 .serviciosDelClub {
     width: 100%;
     height: 55vh;
@@ -539,15 +529,7 @@ hr {
 
 
 
-
-
-
-
-
-
-
-
-
+/*SECCION CONOCE  ///////////////////////////////////// */
 .containerConoce {
     display: flex;
     flex-wrap: wrap;
@@ -594,6 +576,12 @@ hr {
 
 
 
+
+
+
+
+
+/*COPY FINAL  ///////////////////////////////////// */
 .containerFinal {
     width: 100vw;
     display: flex;
@@ -620,7 +608,7 @@ hr {
     gap: 15px;
     z-index: 15;
     position: absolute;
-    text-shadow: 0 8px 8px rgb(0, 0, 0);
+    /* text-shadow: 0 8px 8px rgb(0, 0, 0); */
 
     
 }
@@ -657,59 +645,21 @@ hr {
     display: block;
 }
 
-
-.overlayFinal {
+.overlay2 {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.7);
-    z-index: -1;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Ajusta la opacidad según lo necesites */
+    z-index: 14; /* Debe estar entre el carrusel (z-index: 14) y el texto (z-index: 15) */
 }
-
 
 .custom-carousel{
     z-index: 14;
     position: absolute;
 }
 
-footer {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #333;
-    height: 80px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    color: #888;
-    margin-top: -25px;
-    z-index: 20;
-
-    p {
-        font-size: 10px;
-    }
-}
-
-.containerLogoSat {
-    width: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    img {
-        width: 50%;
-        padding: 5px;
-    }
-}
 
 
 
@@ -717,8 +667,7 @@ footer {
 
 
 
-
-
+/*CARDS CABANAS///////////////////////////////////// */
 .cardCabana {
     width: 80%;
     margin: 20px auto;
@@ -828,13 +777,6 @@ footer {
     opacity: 0.9;
 }
 
-
-
-
-
-
-
-
 .cardCabanaCielo {
     width: 80%;
     margin: 20px auto;
@@ -880,7 +822,43 @@ footer {
 
 
 
+ /*FOOTER////////////////////////////////// */
+ footer {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    height: 80px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #888;
+    margin-top: -25px;
+    z-index: 20;
 
+    p {
+        font-size: 10px;
+    }
+}
+
+.containerLogoSat {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        width: 50%;
+        padding: 5px;
+    }
+}
 
 
 
