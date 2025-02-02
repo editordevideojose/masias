@@ -257,6 +257,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+function initMap() {
+    const location = { lat: -34.678264, lng: -68.640032 }; // Ubicación exacta
+    const map = new google.maps.Map(document.getElementById("google-map"), {
+        zoom: 15,
+        center: location,
+    });
+    new google.maps.Marker({
+        position: location,
+        map: map,
+    });
+}
 
 
 

@@ -740,6 +740,83 @@ hr {
 
 
 
+
+
+
+.location-card {
+    width: 90%;
+    max-width: 375px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.map-container {
+    width: 100%;
+    height: 200px;
+}
+
+#google-map {
+    width: 100%;
+    height: 100%;
+}
+
+.directions-btn {
+    display: block;
+    width: 75%;
+    margin: -20px auto 0;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.directions-btn:hover {
+    background-color: #0056b3;
+}
+
+.info-container {
+    padding: 15px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.place {
+    font-weight: bold;
+}
+
+.distance {
+    color: #555;
+}
+
+
+
+
+
+
 /*COPY FINAL  ///////////////////////////////////// */
 .containerFinal {
     width: 100vw;
