@@ -34,7 +34,7 @@
             <div class="cabaña-container">
                 <label for="cabana">¿En qué cabaña vas a alojarte?</label>
                 <select id="cabana" name="cabana">
-                    <option value="masia-luna">Masía de la Luna (5/7 personas)</option>
+                    <option value="masia-luna">Masía de la Luna (4/6 personas)</option>
                     <option value="masia-cielo">Masía del Cielo (2/4 personas)</option>
                 </select>
             </div>
@@ -50,7 +50,6 @@
                     <option value="4">4</option>
                     <option value="5">5</option>
                     <option value="6">6</option>
-                    <option value="7">7</option>
                 </select>
             </div>
             <!-- Selector noches -->
@@ -197,28 +196,29 @@
 
         <!-- Sección 4: Reserva Confirmada -->
         <div class="form-section" id="section-4" style="display: none;">
-            <h1 id="h1Form">¡Reserva confirmada!</h1>
+            <div id="h1Form">
+                <h4><i class="fas fa-check-circle"></i></h4>
+                <h1>¡Reserva confirmada!</h1>
+            </div>
             <br>
             <br>
             <br>
             <div class="important-message" id="msjPago">
-                <p>Resumen de tu reserva:</p>
+                <h3 class="textoNegro">Resumen de tu reserva:</h3>
+                <hr>
                 <ul>
-                    <li>A nombre de: <strong class="senaYsaldo"><span id="resumen-nombre"></span></strong> </li>
-                    <li>Fecha de ingreso: <strong class="senaYsaldo"><span id="resumen-fecha-entrada"></span></strong>
-                    </li>
-                    <li>Fecha de salida: <strong class="senaYsaldo"><span id="resumen-fecha-salida"></span></strong>
-                    </li>
-                    <li>Cabaña: <strong class="senaYsaldo"><span id="resumen-cabana"></span></strong></li>
-                    <li>Noches: <strong class="senaYsaldo"><span id="resumen-noches"></span></strong></li>
-                    <li>Ropa de blanco: <strong class="senaYsaldo"><span id="resumen-ropa"></span></strong></li> <!-- Nuevo dato -->
-
+                    <li><p>A nombre de: <strong class="senaYsaldo"><span id="resumen-nombre"></span></strong></p> </li>
+                    <li><p>Fecha de ingreso: <strong class="senaYsaldo"><span id="resumen-fecha-entrada"></span></strong></p></li>
+                    <li><p>Fecha de salida: <strong class="senaYsaldo"><span id="resumen-fecha-salida"></span></strong></p></li>
+                    <li><p>Cabaña: <strong class="senaYsaldo"><span id="resumen-cabana"></span></strong></p></li>
+                    <li><p>Noches: <strong class="senaYsaldo"><span id="resumen-noches"></span></strong></p></li>
+                    <li><p>Ropa de blanco: <strong class="senaYsaldo"><span id="resumen-ropa"></span></strong></p></li> 
                 </ul>
             </div>
 
             <div class="important-message" id="msjPago">
                 <p> <i class="fas fa-key"></i>
-                    Para ingresar, encontrarás la llave de la cabaña en la parrilla de la misma, debajo de la
+                    Para ingresar, encontrarás la llave de la cabaña en la parrilla de la misma, bajo la
                     piedra. Al salir, recuerda dejarla en el mismo lugar.
                 </p>
             </div>

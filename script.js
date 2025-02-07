@@ -37,7 +37,7 @@ const huespedesContainer = document.getElementById('huespedes');
 // Eliminar cualquier contenido previo en el contenedor
 huespedesContainer.innerHTML = '';
 
-for (let i = 1; i <= 7; i++) {
+for (let i = 1; i <= 6; i++) {
     const huespedDiv = document.createElement('div');
     huespedDiv.classList.add('huesped');
     huespedDiv.innerHTML = `
@@ -125,9 +125,9 @@ document.addEventListener("DOMContentLoaded", function () {
         let additionalPriceForRopa = ropaValue * 6000;  // 6000 por cada persona
 
         if (cabanaValue === "masia-cielo") {
-            pricePerNight = 70000;
+            pricePerNight = 65000;
         } else if (cabanaValue === "masia-luna") {
-            pricePerNight = 80000;
+            pricePerNight = 85000;
         }
 
         const total = (nightsValue * pricePerNight) + additionalPriceForRopa;
@@ -168,9 +168,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Asignamos el precio por noche según la cabaña
         if (cabanaValue === "masia-cielo") {
-            pricePerNight = 70000; // Precio por noche para masia-cielo
+            pricePerNight = 65000; // Precio por noche para masia-cielo
         } else if (cabanaValue === "masia-luna") {
-            pricePerNight = 80000; // Precio por noche para masia-luna
+            pricePerNight = 85000; // Precio por noche para masia-luna
         }
 
         const total = (nightsValue * pricePerNight) + additionalPriceForRopa; // Total a pagar
