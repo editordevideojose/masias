@@ -29,7 +29,7 @@ body {
 }
 
 .barraExcursiones {
-    background-color: #333;
+    background-color: #3C3C3C;
     width: 100vw;
     display: flex;
     flex-direction: row;
@@ -424,6 +424,7 @@ body {
 
     p {
         font-size: 14px;
+        color: #333333;
     }
 
     .listaQueIncluye {
@@ -471,7 +472,7 @@ hr {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #333333;
+    background-color: #3C3C3C;
     color: aliceblue;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -492,7 +493,7 @@ hr {
     background-color: gold;
     width: 100%;
     padding: 5px 0;
-    color: #333333;
+    color: #3C3C3C;
     font-size: 13px;
 }
 
@@ -634,7 +635,7 @@ hr {
     width: 100%;
     height: 20px;
     border-bottom: 2px black;
-    background-color: #333;
+    background-color: #3C3C3C;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -808,6 +809,7 @@ li {
 
 .place {
     font-weight: bold;
+    color: #333333;
 }
 
 .distance {
@@ -913,7 +915,7 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #333;
+    background-color: #3C3C3C;
     height: 80px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -946,3 +948,10 @@ li {
 
 
 
+
+
+
+.linkTexto{
+    color: #0156B3;
+    font-weight: 600;
+}

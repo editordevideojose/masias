@@ -69,6 +69,10 @@ body {
     text-align: justify;
 }
 
+.description h3 {
+    color: #333333;
+}
+
 .description p {
     font-size: 14px;
 }
@@ -180,6 +184,7 @@ body {
     width: 100%;
     background-color: #F4F4F4;
     border-radius: 5px;
+    color: #333333;
 
     p {
         padding: 10px;
