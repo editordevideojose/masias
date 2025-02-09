@@ -1,2 +1,60 @@
 <!-- <div class="barra"><i class="fa fa-exclamation-triangle"></i>
                 ¿Sos nuevo? Leé el reglamento <a class="aqui" href="reglamento.html"> AQUÍ</a></div> -->
+
+
+
+
+
+
+
+
+                <!-- <div class="barrasYclima"> -->
+        <!-- <div class="circuloEinfo">
+                <div class="containerTiempo">
+                    <div class="tiempo1"><i class="fa fa-cloud-sun"></i>
+                        <div id="weather">
+                            Cargando clima...
+                        </div>
+                    </div>
+                </div>
+
+                <div class="barras">
+                    <div class="barra1"><i class="fas fa-exchange-alt"></i>
+                        10% off por transferencia </div>
+                    <div class="barra"><i class="fas fa-credit-card"></i> 2 pagos sin interés con tarjeta </div>
+                </div>
+            </div> -->
+        <!-- </div> -->
+
+
+
+
+
+        <!-- <div class="excursionesHome">
+        <div class="excursionHome">
+            <div class="fotoExcursionHome">
+                <img src="" alt="">
+            </div>
+            <div class="textoExcursionHome">
+                <h4>Paseo en Velero</h4>
+                <p>1 ó 2 1 hora</p>
+            </div>
+        </div>
+
+    </div> -->
+
+
+
+        <!-- <div class="containerFinal video-background-final">
+        <div class="final">
+            <h2>¡Difrutá El Nihuil <br>en <span class="cursiva">Las Masías</span> !</h2>
+            <p>Reservá ahora y comenzá <br>tus días de descanso.</p>
+            <a id="btnDispoFinal" class="btnDisponibilidad" href="https://wa.me/5492604404444?text=Hola!%20Quiero%20saber%20si%20hay%20disponibilidad%20para%20la%20fecha:%20y%20para%20la%20cantidad%20de%20personas:
+            ">
+                Consultar disponibilidad</a>
+        </div>
+        <video autoplay muted loop playsinline>
+            <source src="img/videoCopyFinal2.MOV" type="video/mp4">
+        </video>
+        <div class="overlay"></div>
+    </div> -->
