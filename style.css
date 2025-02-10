@@ -503,6 +503,10 @@ hr {
     padding: 10px 0;
 }
 
+#velocidadContainer{
+    margin-top: 30px;
+}
+
 .prohibidoMotoRuido {
     width: 100%;
     display: flex;
