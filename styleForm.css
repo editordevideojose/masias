@@ -12,6 +12,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 /* Contenedor del formulario */
 .form-container {
     padding: 20px;
@@ -22,7 +23,8 @@ body {
 }
 
 h1 {
-    font-size: 28px; /* Aumentado tamaño de fuente */
+    font-size: 28px;
+    /* Aumentado tamaño de fuente */
     color: whitesmoke;
     text-align: center;
 }
@@ -44,28 +46,34 @@ h1 {
     position: absolute;
     top: 0;
     left: 0;
-    margin-bottom: 55px; /* Añadido margen inferior de 15px */
-    h5{
+    margin-bottom: 55px;
+
+    /* Añadido margen inferior de 15px */
+    h5 {
         font-weight: 400;
         color: #D7D7D7;
         margin-top: 3px;
     }
-    
+
 }
 
 
 
 h2 {
-    font-size: 14px; /* Aumentado tamaño de fuente */
+    font-size: 14px;
+    /* Aumentado tamaño de fuente */
     color: #555;
     text-align: center;
-    margin-bottom: 20px; /* Mayor separación inferior */
+    margin-bottom: 20px;
+    /* Mayor separación inferior */
 }
 
 
 
 /* Estilo de los inputs, selects y botones */
-input, select, button {
+input,
+select,
+button {
     width: 100%;
     padding: 10px;
     margin: 5px 0 15px 0;
@@ -91,8 +99,18 @@ label {
 
 /* Eliminar títulos solo para los campos de nombre, edad y DNI */
 input::placeholder {
-    color: #888;
+    color: #9a9a9a;
     font-style: italic;
+}
+
+input#nombre-reserva {
+    border: solid 1px #1A73E8;
+}
+
+input#nombre-reserva::placeholder {
+    color: #9a9a9a;
+    font-style: italic;
+    font-weight: 600;
 }
 
 /* Estilo de botones */
@@ -110,7 +128,8 @@ button:hover {
     background-color: #45a049;
 }
 
-.important-message, .alert-message {
+.important-message,
+.alert-message {
     background-color: #f9f9f9;
     padding: 15px;
     border-left: 4px solid #ffc107;
@@ -118,19 +137,21 @@ button:hover {
     margin-bottom: 20px;
 }
 
-.important-message p, .alert-message p {
+.important-message p,
+.alert-message p {
     margin: 0;
     font-size: 14px;
     color: #333;
 }
 
-#msjPago{
+#msjPago {
     border-left: 4px solid #007BFF;
 
 }
 
 .download-btn {
-    background-color: #FFD700; /* Amarillo */
+    background-color: #FFD700;
+    /* Amarillo */
     border: none;
     padding: 10px 20px;
     font-size: 16px;
@@ -145,18 +166,19 @@ button:hover {
 }
 
 .download-btn:hover {
-    background-color: #FFBF00; /* Amarillo más oscuro al pasar el mouse */
+    background-color: #FFBF00;
+    /* Amarillo más oscuro al pasar el mouse */
 }
 
 /* Estilo para todos los huéspedes */
 .huesped {
-border: solid aliceblue;    
-padding: 20px 20px 0px 20px;
+    border: solid #1A73E8;
+    padding: 20px 20px 0px 20px;
     border-radius: 5px;
     margin-bottom: 20px;
 }
 
-p{
+p {
     text-align: justify;
 }
 
@@ -168,7 +190,7 @@ p{
     display: block;
 }
 
-#pay-btn{
+#pay-btn {
     background-color: #007BFF;
     color: aliceblue;
 }
@@ -182,7 +204,7 @@ p{
     margin: 0 0 20px 0;
 }
 
-.nights-select h3{
+.nights-select h3 {
     margin-top: 10px;
 }
 
@@ -251,14 +273,14 @@ input.comprobante {
 
 
 
-#continue-btn{
+#continue-btn {
     background-color: #1A73E8;
     color: aliceblue;
     height: 40px;
 }
 
-.divVacio{
-    margin: 100px 0 ;
+.divVacio {
+    margin: 100px 0;
 }
 
 
@@ -302,23 +324,27 @@ input.comprobante {
 }
 
 
-.senaYsaldo{
+.senaYsaldo {
     color: #888;
 }
-.textoFino{
+
+.textoFino {
     font-weight: 400;
 }
-.p5px{
+
+.p5px {
     margin-bottom: 5px;
 }
-#checkout{
+
+#checkout {
     background-color: #f9f9f9;
     padding: 25px;
     border-left: none;
     border-radius: 5px;
     margin-bottom: 20px;
 }
-.totalCheckout{
+
+.totalCheckout {
     margin-bottom: 5px;
     font-size: 120%;
 }
@@ -326,6 +352,11 @@ input.comprobante {
 
 
 
-.textoNegro{
+.textoNegro {
     color: #333333;
 }
+
+
+.resumenReserva{
+    border: none !important;
+} 
