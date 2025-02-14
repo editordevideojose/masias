@@ -1,22 +1,3 @@
-document.getElementById("closeModal").addEventListener("click", function() {
-    window.location.href = "https://www.google.com";
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //CLIMA//////////////////////////////////////////////////////////////
 const apiKey = "2eaa3fe5d97159a3e224bd4072d2ee5b";  // Nueva API Key
 const lat = -35.029795;  // Latitud de El Nihuil
