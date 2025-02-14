@@ -272,6 +272,19 @@ function initMap() {
 
 
 
+window.onload = function() {
+    var screenWidth = screen.width; // screen.width es más confiable para esto
+
+    if (screenWidth > 768) {  
+        alert("Sitio web optimizado solo para móviles");
+    }
+};
+
+
+
+
+
+
 
 
 
