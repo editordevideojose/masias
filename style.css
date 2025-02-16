@@ -53,8 +53,11 @@ body {
 .aqui {
     /* background-color: #828282; */
     /* color: aliceblue; */
-    color: aliceblue;
-    border: solid 2px #1A73E8;
+    /* color: aliceblue; */
+    /* border: solid 2px #1A73E8; */
+    /* background-color: #1A73E8; */
+    color: #323639;
+    background-color: aliceblue;
     border-radius: 5px;
     padding: 5px 15px;
     margin-left: 3px;
@@ -1088,8 +1091,9 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: aliceblue;
-    border: solid 2px #1A73E8;
+    color: #323639;
+    /* border: solid 2px #1A73E8; */
+    background-color: aliceblue;
     font-size: 105%;
     z-index: 11;
     text-align: center;
@@ -1133,7 +1137,7 @@ button {
     align-self: center;
     text-align: center;
     font-size: 150%;
-    margin-top: 40px;
+    margin-top: 30px;
 
     h5 {
         font-weight: 200;
@@ -1149,6 +1153,8 @@ button {
         font-weight: bolder;
         
     }
+
+    /* margin-top: -300px; */
 
 }
 
@@ -1177,6 +1183,11 @@ button {
     justify-content: center;
     align-items: center;
     margin-top: 60px;
+
+    /* background-color: #323639bb;
+    bottom: 0;
+    position: absolute; */
+
 }
 
 
@@ -1197,6 +1208,9 @@ button {
     height: 46px;
     border-radius: 5px;
     background-color: aliceblue;
+    /* background-color: #323639;
+    border: solid 1px aliceblue; */
+
     color: green;
     text-align: center;
     line-height: 46px;
@@ -1215,9 +1229,17 @@ button {
     border-radius: 5px;
     height: 46px;
     background-color: aliceblue;
-    color: #0056b3;
+    /* background-color: #323639;
+    border: solid 1px aliceblue; */
+    color: #1A73E8;
+  
     text-align: center;
     line-height: 46px;
+    i{
+        color: #1A73E8;
+        font-size: 18px;
+        font-weight: bold;
+    }
 }
 
 .btnReservar2 {
@@ -1228,6 +1250,8 @@ button {
     color: aliceblue;
     text-align: center;
     margin: 10px 0 0 0;
+    /* border: solid 1px aliceblue; */
+
 }
 
 .video-background2 {
@@ -1243,12 +1267,21 @@ button {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: -1;
-    filter: blur(0.5px);
+    z-index: -2;
+    /* filter: blur(0.4px); */
     display: block;
     margin-top: 15px;
 }
 
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
 
 
 
