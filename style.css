@@ -1205,6 +1205,7 @@ button {
     i{
         color: green;
         font-size: 18px;
+        font-weight: bold;
     }
 }
 
