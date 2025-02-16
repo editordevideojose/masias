@@ -1185,7 +1185,7 @@ button {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 75%;
     gap: 15px;
     margin: 0 0 20px 0;
     font-size: 90%;
@@ -1220,7 +1220,7 @@ button {
 }
 
 .btnReservar2 {
-    width: 75%;
+    width: 70%;
     padding: 15px 10px;
     border-radius: 5px;
     background-color: #1A73E8;
