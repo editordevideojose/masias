@@ -1199,9 +1199,9 @@ button {
     background-color: aliceblue;
     color: green;
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    line-height: 46px;
+
+    
     i{
         color: green;
         font-size: 18px;
@@ -1215,11 +1215,8 @@ button {
     height: 46px;
     background-color: aliceblue;
     color: #0056b3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
-
+    line-height: 46px;
 }
 
 .btnReservar2 {
