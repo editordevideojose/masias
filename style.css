@@ -1133,7 +1133,7 @@ button {
     align-self: center;
     text-align: center;
     font-size: 150%;
-    margin-top: 70px;
+    margin-top: 40px;
 
     h5 {
         font-weight: 200;
@@ -1245,7 +1245,7 @@ button {
     z-index: -1;
     filter: blur(0.5px);
     display: block;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 
