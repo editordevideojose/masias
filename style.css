@@ -1211,7 +1211,9 @@ button {
     background-color: aliceblue;
     /* background-color: #323639;
     border: solid 1px aliceblue; */
-    color: rgb(0, 102, 0);    
+    color: rgb(0, 102, 0); 
+    color: #323639;
+   
     text-align: center;
     line-height: 48px;
     transition: background-color 0.3s, color 0.3s;
@@ -1260,7 +1262,6 @@ button {
     /* padding: 10px; */
     i{
         color: #1A73E8;
-        color: #323639;
         font-size: 18px;
         /* font-weight: bold; */
     }
