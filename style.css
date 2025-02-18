@@ -1211,18 +1211,18 @@ button {
     background-color: aliceblue;
     /* background-color: #323639;
     border: solid 1px aliceblue; */
-    color: green;
+    color: rgb(0, 102, 0);    
     text-align: center;
     line-height: 30px;
     transition: background-color 0.3s, color 0.3s;
     font-weight: 700;
     /* -webkit-text-stroke: 0.5px green; */
     letter-spacing: 0.2px;
-    padding: 10px 15px;
+    padding: 10px;
 
 
     i{
-        color: green;
+        color: rgb(0, 102, 0);
         font-size: 18px;
         font-weight: bold;
     }
