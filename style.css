@@ -1205,7 +1205,7 @@ button {
 .btnDisponibilidad2{
     width: 50%;
     /* padding: 5px 10px; */
-    height: 46px;
+    height: 48px;
     border-radius: 5px;
     background-color: aliceblue;
     /* background-color: #323639;
@@ -1213,7 +1213,7 @@ button {
 
     color: green;
     text-align: center;
-    line-height: 46px;
+    line-height: 48px;
 
     
     i{
@@ -1227,14 +1227,14 @@ button {
     width: 50%;
     /* padding: 15px 10px; */
     border-radius: 5px;
-    height: 46px;
+    height: 48px;
     background-color: aliceblue;
     /* background-color: #323639;
     border: solid 1px aliceblue; */
     color: #1A73E8;
   
     text-align: center;
-    line-height: 46px;
+    line-height: 48px;
     i{
         color: #1A73E8;
         font-size: 18px;
@@ -1243,8 +1243,11 @@ button {
 }
 
 .btnReservar2 {
-    width: 70%;
-    padding: 15px 10px;
+    width: 75%;
+    height: 48px;
+    line-height: 48px;
+
+    /* padding: 15px 10px; */
     border-radius: 5px;
     background-color: #1A73E8;
     color: aliceblue;
