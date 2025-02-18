@@ -1197,32 +1197,34 @@ button {
     justify-content: center;
     align-items: center;
     width: 75%;
-    gap: 15px;
+    gap: 10px;
     margin: 0 0 20px 0;
     font-size: 90%;
 }
 
 .btnDisponibilidad2{
     width: 50%;
-    /* padding: 5px 10px; */
-    height: 48px;
+    /* padding: 5px 15px; */
+    /* height: 48px; */
+    height: 30px;
     border-radius: 5px;
     background-color: aliceblue;
     /* background-color: #323639;
     border: solid 1px aliceblue; */
     color: green;
     text-align: center;
-    line-height: 48px;
+    line-height: 30px;
     transition: background-color 0.3s, color 0.3s;
-    /* font-weight: 700; */
-    -webkit-text-stroke: 0.5px green;
+    font-weight: 700;
+    /* -webkit-text-stroke: 0.5px green; */
     letter-spacing: 0.2px;
+    padding: 10px 15px;
 
 
     i{
         color: green;
         font-size: 18px;
-        /* font-weight: bold; */
+        font-weight: bold;
     }
 }
 
@@ -1243,16 +1245,21 @@ button {
     width: 50%;
     /* padding: 15px 10px; */
     border-radius: 5px;
-    height: 48px;
+    /* height: 48px; */
     background-color: aliceblue;
     /* background-color: #323639;
     border: solid 1px aliceblue; */
     color: #1A73E8;
     transition: background-color 0.3s, color 0.3s;
     text-align: center;
-    line-height: 48px;
-    -webkit-text-stroke: 0.5px #1A73E8;
-    /* font-weight: 700; */
+    line-height: 30px;
+    /* -webkit-text-stroke: 0.5px #1A73E8; */
+    font-weight: 700;
+    height: 30px;
+    padding: 10px;
+
+
+
     i{
         color: #1A73E8;
         font-size: 18px;
