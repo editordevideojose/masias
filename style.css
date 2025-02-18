@@ -1214,11 +1214,15 @@ button {
     text-align: center;
     line-height: 48px;
     transition: background-color 0.3s, color 0.3s;
-    
+    /* font-weight: 700; */
+    -webkit-text-stroke: 0.5px green;
+    letter-spacing: 0.2px;
+
+
     i{
         color: green;
         font-size: 18px;
-        font-weight: bold;
+        /* font-weight: bold; */
     }
 }
 
@@ -1247,10 +1251,12 @@ button {
     transition: background-color 0.3s, color 0.3s;
     text-align: center;
     line-height: 48px;
+    -webkit-text-stroke: 0.5px #1A73E8;
+    /* font-weight: 700; */
     i{
         color: #1A73E8;
         font-size: 18px;
-        font-weight: bold;
+        /* font-weight: bold; */
     }
 }
 
