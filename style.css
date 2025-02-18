@@ -1210,17 +1210,29 @@ button {
     background-color: aliceblue;
     /* background-color: #323639;
     border: solid 1px aliceblue; */
-
     color: green;
     text-align: center;
     line-height: 48px;
-
+    transition: background-color 0.3s, color 0.3s;
     
     i{
         color: green;
         font-size: 18px;
         font-weight: bold;
     }
+}
+
+/* Efectos hover y active */
+.btnDisponibilidad2:hover {
+    background-color: green;
+    color: white;
+    i{
+        color: white;
+    }
+}
+
+.btnDisponibilidad2:active {
+    background-color: darkgreen;
 }
 
 .btnLlegar2{
@@ -1232,7 +1244,7 @@ button {
     /* background-color: #323639;
     border: solid 1px aliceblue; */
     color: #1A73E8;
-  
+    transition: background-color 0.3s, color 0.3s;
     text-align: center;
     line-height: 48px;
     i{
@@ -1242,11 +1254,22 @@ button {
     }
 }
 
+.btnLlegar2:hover {
+    background-color: #1A73E8;
+    color: white;
+    i{
+        color: white;
+    }
+}
+
+.btnLlegar2:active {
+    background-color: #0F5AC5;
+}
+
 .btnReservar2 {
     width: 75%;
     height: 48px;
     line-height: 48px;
-
     /* padding: 15px 10px; */
     border-radius: 5px;
     background-color: #1A73E8;
@@ -1254,7 +1277,15 @@ button {
     text-align: center;
     margin: 10px 0 0 0;
     /* border: solid 1px aliceblue; */
+    transition: background-color 0.3s;
+}
 
+.btnReservar2:hover {
+    background-color: #0F5AC5;
+}
+
+.btnReservar2:active {
+    background-color: #0C4AA3;
 }
 
 .video-background2 {
