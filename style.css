@@ -1207,17 +1207,23 @@ button {
     height: 48px;
     border-radius: 5px;
     background-color: green;
-    color: aliceblue;    
-    text-align: center;
-    line-height: 48px;
-    transition: background-color 0.3s, color 0.3s;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 700;
     letter-spacing: 0.2px;
+    gap: 3px;
+    transition: background-color 0.3s, color 0.3s;
+    /* text-align: center;
+    line-height: 48px; */
+    
 
     i{
         color: aliceblue;
         font-size: 18px;
         font-weight: bold;
+        line-height: normal;
     }
 }
 
@@ -1236,25 +1242,18 @@ button {
 
 .btnLlegar2{
     width: 50%;
-    /* padding: 15px 10px; */
     border-radius: 5px;
     height: 48px;
     background-color: aliceblue;
-    /* background-color: #323639;
-    border: solid 1px aliceblue; */
     color: #1A73E8;
     color: #323639;
     transition: background-color 0.3s, color 0.3s;
     text-align: center;
     line-height: 48px;
-    /* -webkit-text-stroke: 0.5px #1A73E8; */
     font-weight: 700;
-    /* height: 30px; */
-    /* padding: 10px; */
     i{
         color: #1A73E8;
         font-size: 18px;
-        /* font-weight: bold; */
     }
 }
 
