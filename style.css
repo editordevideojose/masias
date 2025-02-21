@@ -879,6 +879,7 @@ li {
     background-color: green;
     color: aliceblue;
     text-shadow: none;
+
     i{
         color: aliceblue;
         font-size: 18px;
@@ -928,7 +929,7 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #3C3C3C;
+    background-color: #323639;
     height: 80px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -942,7 +943,7 @@ li {
 
     hr {
         margin-top: 4px;
-        margin-bottom: 5px;
+        margin-bottom: 2px;
         width: 40%;
         border: 0;
         height: 0.5px;
@@ -958,7 +959,7 @@ li {
 }
 
 .containerLogoSat {
-    width: 13%;
+    width: 12%;
     display: flex;
     justify-content: center;
     align-items: center;
