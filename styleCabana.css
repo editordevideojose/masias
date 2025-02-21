@@ -57,11 +57,11 @@ body {
 
     h2 {
         font-size: 110%;
-        color: whitesmoke;
+        color: #F4F4F4 !important;
     }
 
     h5 {
-        color: whitesmoke;
+        color: #F4F4F4;
         margin: 0 auto;
         z-index: 12;
         font-size: 70%;
@@ -252,7 +252,7 @@ body {
 }
 
 #cursivaLunaCielo{
-    color: aliceblue;
+    color: #F3F3F4;
     font-size: 120%;
     font-weight: 400;
 }
