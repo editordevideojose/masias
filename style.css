@@ -237,7 +237,7 @@ body {
     text-align: center;
     margin: 15px 0px;
     i{
-        color: green;
+        color: aliceblue;
         font-size: 18px;
     }
 }
@@ -875,12 +875,14 @@ li {
 
 #btnDispoFinal {
     margin: 10px 0;
-    width: 60%;
-    background-color: #007BFF;
+    width: 56%;
+    background-color: green;
     color: aliceblue;
-    border: solid 2px #007BFF;
     text-shadow: none;
-
+    i{
+        color: aliceblue;
+        font-size: 18px;
+    }
 }
 
 .video-background-final {
@@ -939,11 +941,20 @@ li {
     }
 }
 
+.desarrolladoPor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .containerLogoSat {
-    width: 25%;
+    width: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 10px;
+
 
     a {
         display: flex;
@@ -952,7 +963,7 @@ li {
     }
 
     img {
-        width: 50%;
+        width: 100%;
         padding: 5px;
     }
 }
