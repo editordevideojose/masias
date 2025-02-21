@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Mistral';
+    src: url('fonts/MistralW01.woff2') format('woff2'),
+     url('fonts/MistralW01.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -119,7 +127,8 @@ body {
 }
 
 .textoCursiva{
-    font-style: italic;
+    font-family: Mistral;
+    font-size: 140%;
 }
 
 .services {
@@ -233,4 +242,17 @@ body {
 
 .iconoVerde {
     color: green !important;
+}
+
+.cursiva {
+    font-family: Mistral;
+    font-size: 140%;
+    font-weight: 400;
+
+}
+
+#cursivaLunaCielo{
+    color: aliceblue;
+    font-size: 120%;
+    font-weight: 400;
 }
