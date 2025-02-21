@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Mistral';
+    src: url('fonts/MistralW01.woff2') format('woff2'),
+     url('fonts/MistralW01.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -180,7 +188,6 @@ body {
 
     h1 {
         font-weight: bolder;
-        
     }
 
 }
@@ -1161,24 +1168,35 @@ button {
     text-align: center;
     font-size: 150%;
     margin-top: 30px;
+    position: relative; /* Permite que h5 se posicione dentro de este contenedor */
+    display: inline-block;
 
     h5 {
         font-weight: 200;
         font-size: 50%;
+        position: absolute;
+        top: 10px;
+        left: 23px;
     }
-
-    h6 {
-        font-weight: 200;
-
-    }
-
+    
     h1 {
-        font-weight: bolder;
-        
+        font-weight: 500;
+        font-family: Mistral;
+        font-size: 280%;
+        position: relative;
     }
 
-    /* margin-top: -300px; */
+    #localizacion{
+        top: 80px;
+        left: 57px
 
+        /* text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 50%; */
+    }
 }
 
 /* .containerBotones{
