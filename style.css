@@ -1176,7 +1176,7 @@ button {
         font-size: 50%;
         position: absolute;
         top: 10px;
-        left: 23px;
+        left: 29px;
     }
     
     h1 {
@@ -1184,11 +1184,12 @@ button {
         font-family: Mistral;
         font-size: 280%;
         position: relative;
+        word-spacing: 8px;
     }
 
     #localizacion{
-        top: 80px;
-        left: 57px
+        top: 70px;
+        left: 97px
 
         /* text-align: center;
         display: flex;
