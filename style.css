@@ -939,6 +939,15 @@ li {
     p {
         font-size: 10px;
     }
+
+    hr {
+        margin-top: 4px;
+        margin-bottom: 5px;
+        width: 40%;
+        border: 0;
+        height: 0.5px;
+        background-color: #c3c3c34e;
+    }
 }
 
 .desarrolladoPor{
@@ -949,7 +958,7 @@ li {
 }
 
 .containerLogoSat {
-    width: 15%;
+    width: 13%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -965,6 +974,8 @@ li {
     img {
         width: 100%;
         padding: 5px;
+        opacity: 0.5;
+        
     }
 }
 
